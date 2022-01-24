@@ -3,6 +3,7 @@
     background-color:var(--main-color);
     color:var(--primary-color);
     display:flex;
+    height: 225px;
 }
 .selection>.year ,.selection>.section{
     width:200px;
@@ -11,24 +12,43 @@
 
 .selection>.year>h2,.selection>.section>h2{
     text-align:center;
-    color:var(--primary-color);
+    font-weight:normal;
 }
 .but-container{
     display: flex;
     flex-wrap: wrap;
 }
-span{
+.btn-span{
     width: 100%;
     flex: 50%;
-    height:auto;
+    height:80px;
     margin-top: 10px; 
     cursor: pointer;
     text-align: center;
     padding: 20px;
+    transition: 0.3s;
+}
+.btn-span:hover{
+    font-size: 18px;
 }
 svg{
     background-color:#6e14bd;
     width:35px;
     height: 35px;
     border-radius:50%;
+    transition: 0.3s;
+}
+svg:hover{
+    width:45px;
+    height: 45px;
+    padding: 5px;
+}
+
+@media (max-width:768px) {
+    .btn-span{
+        flex:100%;
+    }
+    .selection{
+        height: 400px;
+    }
 }

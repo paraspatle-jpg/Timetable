@@ -1,0 +1,41 @@
+.day-time-container{
+    display: flex;
+}
+.days-container{
+    flex:50%;
+    text-align: center;
+    border: 1px solid #811ed8;
+    border-radius:10px;
+    margin: 20px;
+    margin-top: 6px;
+}
+.days-container>h2{
+    color: #811ed8;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.day-input-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.btn-var2-span{
+    flex:30%;
+    margin: 20px;
+    color: #811ed8;
+    transition: 0.3s;
+}
+.btn-var2-span:hover{
+    font-size: 18px;
+}
+@media (max-width: 726px) {
+    .btn-var2-span{
+        flex: 30%;
+    }
+    .day-time-container{
+        flex-direction: column;
+    }
+    .days-container{
+        flex:100%;
+    }
+}

@@ -5,18 +5,17 @@
 .nav-container{ 
     display: flex;
     justify-content: space-evenly;
+    padding-top:8px;
 }
 
 .nav-container>h1{
     padding: 0.2em;
-}
-.nav-container>h1{
+    padding-bottom:0px;
+    margin-right: 350px;
     color: var(--font-main);
-    background-color:var(--main-color);
 }
 .color-switch{
     padding: 0.88em;
-
 }
 
 .toggle {
@@ -52,4 +51,14 @@
 
 hr{
     border: 0.5px solid #7417c5;
+}
+@media (max-width:600px) {
+    .nav-container{
+        justify-content:space-between;
+        margin-left: 8px;
+    }
+    .nav-container>h1{
+        margin-left:20px;
+        margin-right: 0px;
+    }
 }
