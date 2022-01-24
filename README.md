@@ -1,2 +1,2 @@
 # Timetable
-A timetable for iiitn students
+A timetable application
