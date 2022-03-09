@@ -8,6 +8,7 @@
     border-radius:10px;
     margin: 20px;
     margin-top: 6px;
+    height: 35vh;
 }
 .days-container>h2{
     color: #811ed8;
@@ -24,9 +25,11 @@
     margin: 20px;
     color: #811ed8;
     transition: 0.3s;
+    height:20px;
+    cursor: pointer;
 }
 .btn-var2-span:hover{
-    font-size: 18px;
+    font-size: 20px;
 }
 @media (max-width: 726px) {
     .btn-var2-span{

@@ -9,8 +9,8 @@ export const Navbar = () => {
                 <h1>TimeTable</h1>
                 <div className="color-switch">
                     <input type="checkbox" id="switch"
-                        class="checkbox" />
-                    <label for="switch" className="toggle"></label>
+                        className="checkbox" />
+                    <label htmlFor="switch" className="toggle"></label>
                 </div>
             </div>
             <hr />
